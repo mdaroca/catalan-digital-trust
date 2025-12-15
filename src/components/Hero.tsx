@@ -29,10 +29,11 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-serif text-5xl md:text-7xl font-bold leading-tight mb-6"
+            className="font-serif text-4xl md:text-6xl font-bold leading-tight mb-6"
           >
-            Privacitat i seguretat{" "}
-            <span className="text-gradient">sense complicacions</span>
+            <span className="text-gradient">Seguretat digital.</span><br />
+            <span className="text-gradient">Privacitat.</span><br />
+            <span className="text-foreground">Desenvolupament d'aplicacions multiplataforma.</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -40,10 +41,18 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl mx-auto"
           >
-            Treballem en ciberseguretat, formació i assessorament. 
-            Ens agrada el software lliure, el català i ajudar a la gent a entendre els seus drets digitals.
+            Assessorament. Formació. Serveis.
+          </motion.p>
+          
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.25 }}
+            className="text-lg text-primary mb-10"
+          >
+            En català i al servei de la transformació social.
           </motion.p>
 
           {/* CTA Buttons */}
