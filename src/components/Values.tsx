@@ -5,27 +5,27 @@ const values = [
   {
     icon: Eye,
     title: "Privacitat",
-    description: "Defensem el dret fonamental a que les dades personals siguin respectades i protegides.",
+    description: "Les teves dades són teves. Punt.",
   },
   {
     icon: Flag,
     title: "Sobirania Tecnològica",
-    description: "Els territoris i les persones han de controlar la seva tecnologia, no al revés.",
+    description: "Millor tenir control sobre els teus aparells que dependre de grans corporacions.",
   },
   {
     icon: Languages,
-    title: "Drets Lingüístics",
-    description: "El català té dret a existir en l'espai digital amb la mateixa dignitat que altres llengües.",
+    title: "Català",
+    description: "Treballem en català perquè és la nostra llengua i perquè podem.",
   },
   {
     icon: Heart,
-    title: "Transformació Social",
-    description: "La tecnologia ha de servir a les persones i a la sostenibilitat, no a interessos corporatius.",
+    title: "Tecnologia per a la gent",
+    description: "La tecnologia hauria d'ajudar, no complicar la vida.",
   },
   {
     icon: Code,
-    title: "Software Lliure",
-    description: "Transparència, llibertat i control són fonamentals; el codi obert és el camí.",
+    title: "Codi obert",
+    description: "Preferim el software que es pot revisar i modificar.",
   },
 ];
 
@@ -42,14 +42,13 @@ const Values = () => {
           className="text-center mb-16"
         >
           <span className="text-primary text-sm font-medium tracking-wider uppercase">
-            Els nostres principis
+            Què ens mou
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mt-4 mb-6">
-            Dimensions Transversals
+            Les coses que ens importen
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Cinc pilars que travessen tota la nostra acció i defineixen 
-            el nostre compromís amb la societat.
+            No som perfectes, però intentem ser coherents amb el que creiem.
           </p>
         </motion.div>
 

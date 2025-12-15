@@ -31,8 +31,8 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-serif text-5xl md:text-7xl font-bold leading-tight mb-6"
           >
-            Transformació digital{" "}
-            <span className="text-gradient">segura i equitativa</span>
+            Privacitat i seguretat{" "}
+            <span className="text-gradient">sense complicacions</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -42,8 +42,8 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed"
           >
-            Som un equip d'especialistes en Hacking ètic, Ciberseguretat, Enginyeria Informàtica i Dret, 
-            compromesos amb el software lliure, la sobirania tecnològica i els drets lingüístics als Països Catalans.
+            Treballem en ciberseguretat, formació i assessorament. 
+            Ens agrada el software lliure, el català i ajudar a la gent a entendre els seus drets digitals.
           </motion.p>
 
           {/* CTA Buttons */}
