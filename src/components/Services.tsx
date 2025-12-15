@@ -44,11 +44,11 @@ const Services = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary text-sm font-medium tracking-wider uppercase">
-            Què fem
-          </span>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold mt-4 mb-6">
-            Els nostres serveis
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">
+            <span className="text-gradient">Ciberseguretat</span><br />
+            <span className="text-gradient">Privacitat</span><br />
+            <span className="text-foreground">Auditories</span><br />
+            <span className="text-foreground">Formació i Drets.</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Formació, seguretat informàtica, assessorament legal i desenvolupament. 
