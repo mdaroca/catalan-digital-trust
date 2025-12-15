@@ -45,14 +45,14 @@ const Services = () => {
           className="text-center mb-16"
         >
           <span className="text-primary text-sm font-medium tracking-wider uppercase">
-            Què oferim
+            Què fem
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mt-4 mb-6">
-            Serveis Especialitzats
+            Els nostres serveis
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Una aproximació integral a la seguretat digital que combina educació, 
-            assessorament tècnic i suport legal.
+            Formació, seguretat informàtica, assessorament legal i desenvolupament. 
+            Coses pràctiques que podem fer per tu.
           </p>
         </motion.div>
 

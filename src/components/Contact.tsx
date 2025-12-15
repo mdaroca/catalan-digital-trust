@@ -20,12 +20,11 @@ const Contact = () => {
 
           {/* Content */}
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
-            Parlem del teu projecte
+            Vols parlar?
           </h2>
           <p className="text-muted-foreground text-lg mb-10 leading-relaxed">
-            Escoltem les teves necessitats específiques per dissenyar 
-            la solució que millor s'adapti a la teva organització. 
-            Cada cas és únic, i així ho tractem.
+            Si tens dubtes o creus que et podem ajudar, escriu-nos. 
+            Sense compromís, ja mirarem com ho fem.
           </p>
 
           {/* CTA */}
