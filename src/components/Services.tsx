@@ -1,34 +1,34 @@
 import { motion } from "framer-motion";
-import { BookOpen, GraduationCap, Shield, Scale } from "lucide-react";
+import { BookOpen, GraduationCap, Shield, Scale, Code, Wrench } from "lucide-react";
 
 const services = [
   {
     icon: BookOpen,
-    title: "Divulgació",
+    title: "Divulgació i Formació",
     description:
-      "Capacitem les persones perquè entenguin conceptes complexos de ciberseguretat i privacitat digital de manera accessible i en català de qualitat.",
-    features: ["Contingut didàctic", "Materials en català", "Públics diversos"],
-  },
-  {
-    icon: GraduationCap,
-    title: "Formació a Mida",
-    description:
-      "Dissenyem cursos personalitzats basats en les necessitats específiques de cada organització, no templates genèrics.",
-    features: ["Avaluació inicial", "Programa personalitzat", "Seguiment continu"],
+      "Cursos i formació especialitzada a mida per a equips d'informàtica i seguretat d'empreses, institucions, administracions i individus. Dissenyem els cursos segons les vostres necessitats.",
+    features: ["Cursos a mida", "A demanda", "En català"],
   },
   {
     icon: Shield,
     title: "Ciberseguretat",
     description:
-      "Auditories de seguretat, hacking ètic, plans de seguretat digital i manteniment continu de la vostra infraestructura.",
-    features: ["Auditories", "Hacking ètic", "Plans de seguretat"],
+      "Auditories de seguretat, hacking ètic, plans de seguretat digital i manteniment d'equips. Elaborem directrius per al tractament segur de la informació i dades.",
+    features: ["Hacking ètic", "Plans de seguretat", "Manteniment"],
   },
   {
     icon: Scale,
     title: "Assessorament Jurídic",
     description:
-      "Orientació legal especialitzada en drets lingüístics digitals, RGPD, CCPA i normatives de protecció de dades.",
-    features: ["Drets lingüístics", "RGPD/CCPA", "Compliment normatiu"],
+      "Assessorament legal a persones i col·lectius sobre drets lingüístics, tractament de dades i compliment normatiu dins els marcs legals espanyol, francès i andorrà.",
+    features: ["Drets lingüístics", "Protecció de dades", "Compliment normatiu"],
+  },
+  {
+    icon: Code,
+    title: "Desenvolupament de Software",
+    description:
+      "Desenvolupament d'aplicacions i software a mida, sempre amb codi obert, respectuós amb la privacitat i els drets lingüístics.",
+    features: ["Aplicacions a mida", "Codi obert", "Privacitat per disseny"],
   },
 ];
 
