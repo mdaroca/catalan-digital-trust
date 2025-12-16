@@ -12,7 +12,7 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-6 py-20 relative z-10">
-        <div className="max-w-4xl ml-auto text-right">
+        <div className="max-w-4xl mr-auto text-left">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -60,7 +60,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 justify-end"
+            className="flex flex-col sm:flex-row gap-4 justify-start"
           >
             <Button variant="hero" size="xl">
               Descobrir serveis
