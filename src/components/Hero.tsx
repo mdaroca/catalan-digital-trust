@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Shield, Lock, Globe } from "lucide-react";
+import { Shield, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -70,29 +70,6 @@ const Hero = () => {
             </Button>
           </motion.div>
 
-          {/* Trust indicators */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="mt-16 pt-8 border-t border-border/50"
-          >
-            <p className="text-sm text-muted-foreground mb-6">Operem a</p>
-            <div className="flex flex-wrap justify-center gap-8 text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <Globe className="w-4 h-4" />
-                <span>Espanya</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Globe className="w-4 h-4" />
-                <span>França</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Globe className="w-4 h-4" />
-                <span>Andorra</span>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </div>
     </section>
