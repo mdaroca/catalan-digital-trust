@@ -5,6 +5,11 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
+      {/* Construction banner */}
+      <div className="absolute top-0 left-0 right-0 bg-primary/90 text-primary-foreground py-2 px-4 text-center text-sm z-20">
+        🚧 Nou espai web en construcció, disculpeu els errors i molèsties 🚧
+      </div>
+
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] rounded-full bg-primary/5 blur-3xl" />
@@ -29,11 +34,11 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="font-serif text-4xl md:text-6xl font-bold leading-tight mb-6"
+            className="font-serif text-3xl md:text-5xl font-bold leading-tight mb-6"
           >
             <span className="text-gradient">Seguretat digital</span><br />
-            <span className="text-gradient">Privacitat</span><br />
-            <span className="text-foreground">Desenvolupament d'aplicacions multiplataforma</span>
+            <span className="text-gradient">Privacitat i drets</span><br />
+            <span className="text-foreground">Creació a mida d'aplicacions multiplataforma</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -41,9 +46,9 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-4"
+            className="text-lg md:text-xl text-muted-foreground mb-4"
           >
-            Assessorament · Formació · Serveis
+            Assessorament, formació i serveis a equips professionals, entitats i individus.
           </motion.p>
           
           <motion.p
