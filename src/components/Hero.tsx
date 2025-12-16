@@ -12,7 +12,7 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-6 py-20 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl ml-auto text-right">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -31,9 +31,9 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-serif text-4xl md:text-6xl font-bold leading-tight mb-6"
           >
-            <span className="text-gradient">Seguretat digital.</span><br />
-            <span className="text-gradient">Privacitat.</span><br />
-            <span className="text-foreground">Desenvolupament d'aplicacions multiplataforma.</span>
+            <span className="text-gradient">Seguretat digital</span><br />
+            <span className="text-gradient">Privacitat</span><br />
+            <span className="text-foreground">Desenvolupament d'aplicacions multiplataforma</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -41,9 +41,9 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl mx-auto"
+            className="text-xl md:text-2xl text-muted-foreground mb-4"
           >
-            Assessorament. Formació. Serveis.
+            Assessorament · Formació · Serveis
           </motion.p>
           
           <motion.p
@@ -52,7 +52,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.25 }}
             className="text-lg text-primary mb-10"
           >
-            En català i al servei de la transformació social.
+            En català i al servei de la transformació social
           </motion.p>
 
           {/* CTA Buttons */}
@@ -60,7 +60,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+            className="flex flex-col sm:flex-row gap-4 justify-end"
           >
             <Button variant="hero" size="xl">
               Descobrir serveis

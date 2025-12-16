@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Work Sans', 'sans-serif'],
-        serif: ['Work Sans', 'sans-serif'],
+        sans: ['Ubuntu', 'sans-serif'],
+        serif: ['Ubuntu', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
