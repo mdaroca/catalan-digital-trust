@@ -5,27 +5,27 @@ const values = [
   {
     icon: Eye,
     title: "Privacitat",
-    description: "Les teves dades són teves. Punt.",
+    description: "Protecció de les dades personals i el dret a la intimitat en l'entorn digital.",
   },
   {
     icon: Flag,
     title: "Sobirania Tecnològica",
-    description: "Millor tenir control sobre els teus aparells que dependre de grans corporacions.",
+    description: "Control sobre les eines i infraestructures digitals que utilitzem.",
   },
   {
     icon: Languages,
     title: "Català",
-    description: "Treballem en català perquè és la nostra llengua i perquè podem.",
+    description: "Compromís amb la normalització lingüística en l'àmbit tecnològic.",
   },
   {
     icon: Heart,
-    title: "Tecnologia per a la gent",
-    description: "La tecnologia hauria d'ajudar, no complicar la vida.",
+    title: "Tecnologia Ètica",
+    description: "Solucions tecnològiques al servei de les persones i la societat.",
   },
   {
     icon: Code,
-    title: "Codi obert",
-    description: "Preferim el software que es pot revisar i modificar.",
+    title: "Codi Obert",
+    description: "Transparència, auditabilitat i col·laboració en el desenvolupament de software.",
   },
 ];
 
@@ -42,13 +42,13 @@ const Values = () => {
           className="text-center mb-16"
         >
           <span className="text-primary text-sm font-medium tracking-wider uppercase">
-            Què ens mou
+            Els nostres principis
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mt-4 mb-6">
-            Les coses que ens importen
+            Valors fonamentals
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            No som perfectes, però intentem ser coherents amb el que creiem.
+            Els principis que guien la nostra feina i el nostre compromís amb la societat.
           </p>
         </motion.div>
 
