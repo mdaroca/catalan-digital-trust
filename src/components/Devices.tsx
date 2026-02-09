@@ -42,13 +42,13 @@ const Devices = () => {
           className="text-center mb-16"
         >
           <span className="text-primary text-sm font-medium tracking-wider uppercase">
-            Maquinari
+            Equipament
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-bold mt-4 mb-6">
-            També venem equips
+            Dispositius segurs i configurats
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Mòbils i ordinadors configurats per ser més segurs i respectar la teva privacitat.
+            Subministrem i configurem mòbils i ordinadors optimitzats per a la privacitat i la seguretat.
           </p>
         </motion.div>
 
