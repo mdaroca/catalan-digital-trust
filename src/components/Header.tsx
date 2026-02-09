@@ -24,9 +24,9 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? "bg-background/90 backdrop-blur-lg border-b border-border"
+          ? "glass border-b border-border/50 shadow-soft"
           : "bg-transparent"
       }`}
     >
@@ -34,10 +34,10 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+            <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 group-hover:shadow-glow transition-all duration-300">
               <Shield className="w-5 h-5 text-primary" />
             </div>
-            <span className="font-serif text-xl font-semibold">PivaciCAT</span>
+            <span className="font-serif text-xl font-semibold group-hover:text-primary transition-colors">PivaciCAT</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -46,12 +46,12 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="relative text-sm text-muted-foreground hover:text-foreground transition-colors after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
               >
                 {link.label}
               </a>
             ))}
-            <Button variant="default" size="sm">
+            <Button variant="default" size="sm" className="shadow-glow">
               Contacta'ns
             </Button>
           </nav>
