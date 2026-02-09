@@ -50,9 +50,16 @@ const Services = () => {
             <span className="text-foreground">Auditories</span><br />
             <span className="text-foreground">Formació i Drets.</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Formació, seguretat informàtica, assessorament legal i desenvolupament. 
-            Coses pràctiques que podem fer per tu.
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-6">
+            Formació, seguretat informàtica, assessorament legal i desenvolupament.
+          </p>
+          <div className="inline-flex flex-col sm:flex-row items-center gap-2 px-6 py-3 rounded-xl bg-muted/50 border border-border">
+            <span className="text-sm text-primary font-medium">Àmbit: Països Catalans</span>
+            <span className="hidden sm:inline text-muted-foreground">·</span>
+            <span className="text-sm text-muted-foreground text-center">Marcs jurídics espanyol, francès i andorrà</span>
+          </div>
+          <p className="text-xs text-muted-foreground mt-4">
+            Atenció presencial a Barcelona, València, Palma, Perpinyà i Andorra la Vella
           </p>
         </motion.div>
 
