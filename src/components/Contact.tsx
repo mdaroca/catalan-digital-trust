@@ -33,8 +33,13 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-24 bg-muted/30" id="contacte">
-      <div className="container mx-auto px-6">
+    <section className="py-24 bg-muted/30 relative overflow-hidden" id="contacte">
+      {/* Background decoration */}
+      <div className="absolute inset-0">
+        <div className="absolute bottom-0 right-0 w-[500px] h-[500px] rounded-full bg-primary/3 blur-3xl" />
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-2xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -43,7 +48,7 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-8">
+            <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-8 shadow-glow">
               <Mail className="w-8 h-8 text-primary" />
             </div>
             <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">

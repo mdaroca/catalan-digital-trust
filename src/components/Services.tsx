@@ -72,27 +72,30 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative p-8 rounded-2xl bg-gradient-card border border-border hover:border-primary/30 transition-all duration-300"
+              className="group relative p-8 rounded-2xl glass glass-hover border-gradient overflow-hidden"
             >
+              {/* Background glow on hover */}
+              <div className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-primary/0 blur-3xl group-hover:bg-primary/10 transition-all duration-700" />
+              
               {/* Icon */}
-              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+              <div className="relative w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 group-hover:shadow-glow transition-all duration-300">
                 <service.icon className="w-7 h-7 text-primary" />
               </div>
 
               {/* Content */}
-              <h3 className="font-serif text-2xl font-semibold mb-3">
+              <h3 className="relative font-serif text-2xl font-semibold mb-3 group-hover:text-primary transition-colors duration-300">
                 {service.title}
               </h3>
-              <p className="text-muted-foreground mb-6 leading-relaxed">
+              <p className="relative text-muted-foreground mb-6 leading-relaxed">
                 {service.description}
               </p>
 
               {/* Features */}
-              <ul className="flex flex-wrap gap-2">
+              <ul className="relative flex flex-wrap gap-2">
                 {service.features.map((feature) => (
                   <li
                     key={feature}
-                    className="text-xs px-3 py-1 rounded-full bg-muted text-muted-foreground"
+                    className="text-xs px-3 py-1.5 rounded-full bg-primary/5 text-primary/80 border border-primary/10 group-hover:border-primary/20 transition-colors"
                   >
                     {feature}
                   </li>
